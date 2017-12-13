@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#1bc0bd"
+tools:context=".MainActivity">
+
+ <ImageView
+        android:id="@+id/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/udacity" />
+
+<ImageView
+        android:src="@drawable/udacitylogo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/udacity"
+        android:id="@+id/udacitylogo" />
+
+<TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacitylogo"
+        android:layout_margin="16dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="company:" />
+
+ <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignRight="@id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="22dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="address:"  />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_alignRight="@id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="phone:"  />
+
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_alignRight="@id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="website:"    />
+
+    <TextView
+        android:id="@+id/udacity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/street"
+        android:layout_toRightOf="@id/name"
+        android:layout_alignBaseline="@id/name"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="Udacity" />
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/address"
+        android:layout_alignLeft="@id/udacity2"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="2465 Latham St
+Mountain View, CA 94043"  />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/udacity2"
+        android:layout_alignBaseline="@id/phone"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="650-555-5555"  />
+
+    <TextView
+        android:id="@+id/www"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/udacity2"
+        android:layout_alignBaseline="@id/site"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="www.udacity.com"    />
+
+    <TextView
+        android:id="@+id/trademark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#E0E0E0"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#424242"
+        android:text="© 2011–2017 Udacity, Inc."    />
+
+</RelativeLayout>
+
+
