@@ -8,7 +8,7 @@
     <style name="Scrollview">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
-        <item name="android:background">#FFFFFF</item>
+        <item name="android:background">#1bc0bd</item>
     </style>
 
     <style name="RelativeLayout">
@@ -25,26 +25,31 @@
 
     <style name="ImageView2">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_height">50dp</item>
         <item name="android:layout_below">@id/udacity</item>
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">#FFFFFF</item>
     </style>
 
     <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textColorLink">#424242</item>
         <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:minWidth">180dp</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:drawablePadding">16dp</item>
         <item name="android:autoLink">all</item>
     </style>
 
     <style name="FooterStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/www</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:background">#E0E0E0</item>
         <item name="android:textSize">12sp</item>

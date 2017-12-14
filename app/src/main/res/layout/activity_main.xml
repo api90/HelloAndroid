@@ -24,8 +24,6 @@
         <TextView
             android:id="@+id/street"
             style="@style/TextStyle"
-            android:layout_alignLeft="@id/number"
-            android:layout_alignRight="@id/www"
             android:layout_below="@id/udacitylogo"
             android:drawableLeft="@drawable/location"
             android:text="@string/adress" />
@@ -34,16 +32,14 @@
             android:id="@+id/number"
             style="@style/TextStyle"
             android:layout_below="@id/street"
-            android:layout_centerHorizontal="true"
             android:drawableLeft="@drawable/phone"
             android:text="@string/phone" />
 
         <TextView
             android:id="@+id/www"
             style="@style/TextStyle"
-            android:layout_alignLeft="@id/number"
             android:layout_below="@id/number"
-            android:layout_marginBottom="106dp"
+            android:layout_marginBottom="64dp"
             android:drawableLeft="@drawable/web"
             android:text="@string/website" />
 
